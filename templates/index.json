@@ -49,7 +49,7 @@
             "image": "shopify:\/\/shop_images\/card-img.jpg",
             "caption": "Dr. Ernie Sanderson",
             "caption_color": "#d2880e",
-            "title": "Veterinarian-Approved",
+            "title": "<strong>Veterinarian-Approved<\/strong>",
             "text": "<p>All products from Dr. Ernie's are vetted and<br\/>approved by a qualified veterinarian, ensuring top-<br\/>quality care for your pet.<\/p>",
             "link_label": "View Products",
             "link": "shopify:\/\/collections"
@@ -60,7 +60,7 @@
         "card_block_dLP8mg"
       ],
       "settings": {
-        "title": "Featured Products",
+        "title": "<strong>Featured Products<\/strong>",
         "heading_size": "h1",
         "heading_alignment": "center",
         "image_width": "full",
