@@ -2663,6 +2663,9 @@
         "column": {
           "name": "Product Block",
           "settings": {
+            "badge_image": {
+              "label": "Image"
+            },
             "image": {
               "label": "Image"
             },
