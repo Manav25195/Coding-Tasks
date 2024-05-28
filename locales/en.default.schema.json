@@ -2664,7 +2664,7 @@
           "name": "Product Block",
           "settings": {
             "badge_image": {
-              "label": "Image"
+              "label": "Badge Image"
             },
             "image": {
               "label": "Image"
