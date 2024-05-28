@@ -5,10 +5,12 @@
 .grid__item {
   position:relative;
 }
+.badge_media{
+  position:absolute;
+}
 .custom_featured.no-heading .title {
   display: none;
 }
-
 .custom_featured .title-wrapper-with-link {
   margin-top: 0;
 }
