@@ -128,7 +128,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.caption != blank -%}
-                  <p class="subtitle">{{ block.settings.caption }}</p>
+                  <p class="subtitle" style="color:{{ block.settings.caption_color }}">{{ block.settings.caption }}</p>
                 {%- endif -%}
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
