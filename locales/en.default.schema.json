@@ -2684,6 +2684,9 @@
             "caption": {
               "label": "Caption"
             },
+            "caption_color": {
+              "label": "Caption color"
+            },
             "title": {
               "label": "Heading"
             },
