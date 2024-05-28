@@ -9,7 +9,9 @@
 .custom_featured .title-wrapper-with-link {
   margin-top: 0;
 }
-
+.custom_featured .title.center{
+  text-align:center;
+}
 @media screen and (max-width: 749px) {
   .custom_featured .title-wrapper-with-link {
     margin-bottom: 3rem;
