@@ -26,6 +26,9 @@
 .custom_featured .title.right{
   text-align:right;
 }
+.multicolumn-card__info .subtitle{
+  margin-bottom:0
+}
 @media screen and (max-width: 749px) {
   .custom_featured .title-wrapper-with-link {
     margin-bottom: 3rem;
