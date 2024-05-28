@@ -83,7 +83,7 @@
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   {% if section.settings.badge_image != 'blank' %}
                   <div class="badge_media">
-                   <ing src="{{
+                   <img src="{{
                       block.settings.badge_image
                       | image_url: width: 100
                     }}" alt="Badge"/>
