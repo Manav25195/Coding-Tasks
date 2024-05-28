@@ -47,9 +47,10 @@
           "settings": {
             "badge_image": "shopify:\/\/shop_images\/badge.png",
             "image": "shopify:\/\/shop_images\/card-img.jpg",
-            "caption": "Add Caption",
-            "title": "Product Title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "Dr. Ernie Sanderson",
+            "caption_color": "#000000",
+            "title": "Veterinarian-Approved",
+            "text": "<p>All products from Dr. Ernie's are vetted and<br\/>approved by a qualified veterinarian, ensuring top-<br\/>quality care for your pet.<\/p>",
             "link_label": "View Products",
             "link": "shopify:\/\/collections"
           }
@@ -61,6 +62,7 @@
       "settings": {
         "title": "Featured Products",
         "heading_size": "h1",
+        "heading_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 1,
