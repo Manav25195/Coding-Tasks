@@ -35,11 +35,6 @@
         <h2 class="title inline-richtext {{ section.settings.heading_size }} {{ section.settings.heading_alignment }}">
           {{ section.settings.title }}
         </h2>
-        {%- if section.settings.button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
-            {{- section.settings.button_label | escape -}}
-          </a>
-        {%- endif -%}
       </div>
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
@@ -182,20 +177,6 @@
         </div>
       {%- endif -%}
     </slider-component>
-    <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
-      {%- if section.settings.button_label != blank -%}
-        <a
-          class="button button--primary"
-          {% if section.settings.button_link == blank %}
-            role="link" aria-disabled="true"
-          {% else %}
-            href="{{ section.settings.button_link }}"
-          {% endif %}
-        >
-          {{ section.settings.button_label | escape }}
-        </a>
-      {%- endif -%}
-    </div>
   </div>
 </div>
 
@@ -338,16 +319,6 @@
       ],
       "default": "primary",
       "label": "t:sections.custom-featured-product.settings.background_style.label"
-    },
-    {
-      "type": "text",
-      "id": "button_label",
-      "label": "t:sections.custom-featured-product.settings.button_label.label"
-    },
-    {
-      "type": "url",
-      "id": "button_link",
-      "label": "t:sections.custom-featured-product.settings.button_link.label"
     },
     {
       "type": "color_scheme",
