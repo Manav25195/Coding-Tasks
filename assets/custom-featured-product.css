@@ -9,7 +9,7 @@
   position:absolute;
   z-index: 1;
     left: 16px;
-    top: 16px;
+    top: 5px;
 }
 .custom_featured .button{
   min-width: 250px;
