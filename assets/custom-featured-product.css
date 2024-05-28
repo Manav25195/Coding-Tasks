@@ -5,6 +5,10 @@
 .grid__item {
   position:relative;
 }
+.badge_media {
+    left: 4px;
+    top: 4px;
+}
 .badge_media{
   position:absolute;
   z-index: 1;
