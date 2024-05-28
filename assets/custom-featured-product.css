@@ -11,7 +11,7 @@
     left: 16px;
     top: 16px;
 }
-button{
+.custom_featured .button{
   min-width: 250px;
   font-weight: 600;
 }
