@@ -2669,6 +2669,9 @@
             "image": {
               "label": "Image"
             },
+            "caption": {
+              "label": "Caption"
+            },
             "title": {
               "label": "Heading"
             },
